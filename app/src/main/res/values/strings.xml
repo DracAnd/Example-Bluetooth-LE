@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bluetooth LE</string>
+    <string name="close_connection">Close connection</string>
+    <string name="search_services">Search services</string>
+</resources>
