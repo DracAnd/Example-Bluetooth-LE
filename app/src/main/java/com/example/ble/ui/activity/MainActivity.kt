@@ -124,7 +124,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun requestBluetoothEnable() {
         val enableBtIntent = Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE)
-        startActigit commit -m "first commit"vityForResult(enableBtIntent, REQUEST_ENABLE_BT)
+        startActivityForResult(enableBtIntent, REQUEST_ENABLE_BT)
     }
 
     private fun hasLocationPermissions(): Boolean {
